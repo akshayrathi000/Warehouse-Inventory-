@@ -3,7 +3,7 @@ from tkinter import *
 import tkinter.messagebox
 import sqlite3
 
-  *//class for Font End UI (user interface)
+  #class for Font End UI (user interface)
 class Product:
 
     def __init__(self,root):
@@ -24,7 +24,7 @@ class Product:
         pContact=StringVar()
 
 
-        *//   Lets call the database methods to perform database operations'''
+        '''  Lets call the database methods to perform database operations'''
         #function to close the product frame
         def close():
             print("Product : close method called")
